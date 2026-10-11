@@ -7,15 +7,15 @@ Two Autonomous Systems connected with **eBGP**, each running **OSPF** internally
 ## Preview
 
 **1. Topology**
-<p align="center"><img src="images/topology.png" alt="Network topology" width="900"></p>
+<p align="center"><img src="topology.png" alt="Network topology" width="900"></p>
 <!-- replace with a full-topology screenshot -->
 
 **2. ACL test from PC (allowed)**
-<p align="center"><img src="images/acl-test-pc.png" alt="PC can reach Server0" width="900"></p>
+<p align="center"><img src="acl-test-pc.png" alt="PC can reach Server0" width="900"></p>
 <!-- replace with a PC0/PC1 ping or browser test to 100.10.10.2 showing replies -->
 
 **3. ACL test from smartphone (blocked)**
-<p align="center"><img src="images/acl-test-smartphone.png" alt="Smartphone blocked from Server0" width="900"></p>
+<p align="center"><img src="acl-test-smartphone.png" alt="Smartphone blocked from Server0" width="900"></p>
 <!-- replace with a smartphone ping or browser test to 100.10.10.2 showing it fails -->
 
 ---
