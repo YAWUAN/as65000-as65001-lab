@@ -10,13 +10,13 @@ Two Autonomous Systems connected with **eBGP**, each running **OSPF** internally
 <p align="center"><img src="images/topology.png" alt="Network topology" width="900"></p>
 <!-- replace with a full-topology screenshot -->
 
-**2. eBGP and OSPF verification**
-<p align="center"><img src="images/bgp-ospf-verification.png" alt="show ip bgp summary and show ip route" width="900"></p>
-<!-- replace with show ip bgp summary / show ip route output -->
+**2. ACL test from PC (allowed)**
+<p align="center"><img src="images/acl-test-pc.png" alt="PC can reach Server0" width="900"></p>
+<!-- replace with a PC0/PC1 ping or browser test to 100.10.10.2 showing replies -->
 
-**3. VoIP and ACL tests**
-<p align="center"><img src="images/voip-acl-test.png" alt="IP phone registration and ACL test" width="900"></p>
-<!-- replace with IP phone call, ping blocked by ACL, or tracert -->
+**3. ACL test from smartphone (blocked)**
+<p align="center"><img src="images/acl-test-smartphone.png" alt="Smartphone blocked from Server0" width="900"></p>
+<!-- replace with a smartphone ping or browser test to 100.10.10.2 showing it fails -->
 
 ---
 
